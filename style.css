@@ -53,3 +53,11 @@ body {
 .mt{
     margin-top: 10rem;
 }
+
+.center{
+    text-align: center !important;
+}
+
+figure.laravel img, figure.wordpress img, figure.filament img{
+    width: 100px;
+}
