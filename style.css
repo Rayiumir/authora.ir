@@ -98,3 +98,13 @@ button.wordpress{
     border-radius: 22px;
     font-family: inherit;
 }
+
+button.filament {
+    background: #ffab58;
+    color: #333;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 22px;
+    font-family: inherit;
+}
