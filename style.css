@@ -31,7 +31,7 @@ body {
 
 .box {
     flex: 1;
-    min-height: 150px;
+    height: auto;
     background-color: #f0f0f0;
     border: 1px solid #ddd;
     border-radius: 15px;
@@ -40,24 +40,61 @@ body {
 }
 
 @media (min-width: 768px) {
-    .container {
+    .container, .buttons {
         flex-direction: row;
     }
 }
 
-.logo{
+.logo {
     text-align: center !important;
     margin-bottom: 30px;
 }
 
-.mt{
+.mt {
     margin-top: 10rem;
 }
 
-.center{
+.center {
     text-align: center !important;
 }
 
-figure.laravel img, figure.wordpress img, figure.filament img{
+figure.laravel img,
+figure.wordpress img,
+figure.filament img {
     width: 100px;
+}
+
+button.github {
+    background: #24292e;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 22px;
+    font-family: inherit;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn {
+    flex: 1;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button.wordpress{
+    background: #1780b4;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 22px;
+    font-family: inherit;
 }
